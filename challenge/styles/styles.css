@@ -1,55 +1,27 @@
-body {
-  text-align: center;
+#background {
+  background-color: rgb(206, 114, 178);
 }
-nav {
-  background-color: steelblue;
-  padding: 10px;
-}
-a {
-  font-size: 1.5em;
+h1, h2, h3 {
   color: white;
-  margin: 40px;
-}
-h1 {
   text-align: center;
-  color: steelblue;
-}
-img {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
 }
 p {
-  width: 80%;
-  padding: 10px;
+  color: black;
+  text-align: left;
 }
-footer {
-  background-color: steelblue;
-  color: white;
-}
-.main-para {
-  font-size: 1.5em;
-  line-height: 1.5em;
-}
-#active {
-  background-color: white;
-  color: steelblue;
-}
-nav, footer {
-  background-color: steelblue;
-  color: white;
-  padding: 10px;
-}
-main p {
-  width: 80%;
-  margin: 50 auto;
+nav a {
+  color:white;
   text-align: center;
+  font-size: 50px;
 }
-footer p {
-  font-size: 20px;
-  margin: 20px auto;
+nav a:hover {
+  text-align: center;
+  color: black;
 }
-a:hover {
-  background-color: white;
-  color: steelblue;
+body {
+  text-align: center;
+  background-color: rgb(206, 114, 178);
+}
+h1 {
+  font-size: small;
 }
