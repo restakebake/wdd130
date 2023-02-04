@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap');
+
+
 div {
   max-width: 1600px;
 }
@@ -9,6 +12,7 @@ nav a {
   text-align: center;
   color: #F5F5F5;
   text-decoration: none;
+  padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
   text-align: center;
@@ -25,8 +29,13 @@ main section {
 }
 body {
   background-color: #2A7DA0;
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
+  font-family: 'Rock Salt', 'Courier New', Courier, monospace;
   background-color: #2A7DA0;
 }
 nav a:hover{
@@ -37,30 +46,45 @@ nav a:hover{
   background-color: #2A7DA0;
   color: #F5F5F5;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px
 }
 .book:hover, .join:hover {
   background-color: #2A7DA0;
   color: #0A2F39;
 }
-msg {
+.msg {
   background-color: #AABD8C;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
   background-color: #AABD8C;
   color: #F5F5F5;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 .home-title {
   color: #F5F5F5;
+  font-family: 'Rock Salt', 'Courier New', Courier, monospace;
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color: #F5F5F5; 
 }
-msg h2 {
+.msg h2 {
   color: #F5F5F5;
+font-family: 'Rock Salt', 'Courier New', Courier, monospace;
+padding: 35px;
 }
-msg p {
+.msg p {
   color: #F5F5F5;
-}
+  font-size: .8em;
+  padding-bottom: 15px;
+  }
 footer a {
   color: #F5F5F5;
   text-decoration: none;
@@ -69,7 +93,8 @@ footer a:hover {
   color: #0A2F39;
 }
 .icon {
-  width: 80px
+  width: 80px;
+  padding-top: 10px;
 }
 footer p {
   font-size: 1.2em;
@@ -79,4 +104,22 @@ footer p a:hover {
 }
 #hero-img {
   width: 100%
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.river-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #2A7DA0;
+}
+main section img {
+  box-sizing: border-box;
 }
