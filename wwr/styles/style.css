@@ -234,9 +234,11 @@ nav {
 }
 h5 {
   color: #F5F5F5;
-  font-family: 'Rock Salt', 'Courier New', Courier, monospace;
-  padding: 50px; 
-  margin: 50;
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  font-size: 24px;
+  margin-top: 100px;
+  margin-left: 20%;
+  text-align: left;
 
 }
 .river p {
@@ -251,9 +253,8 @@ h5 {
   align-items: center;
 }
 .river img {
-  float: left;
-  width:  250px;
-  height: 250px;
+  width:  300px;
+  height: 300px;
   object-fit: cover;
-  
+  float: left;
 }
