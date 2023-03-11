@@ -175,7 +175,7 @@ footer .social img {
   margin: 200px 0;
 }
 .card-img {
-  border: 10px solid #0a2f39;
+  border: 10px solid #0A2f39;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #0A2F39;
 }
@@ -231,4 +231,29 @@ nav {
   grid-column: 2/7;
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #0A2F39;
+}
+h5 {
+  color: #F5F5F5;
+  font-family: 'Rock Salt', 'Courier New', Courier, monospace;
+  padding: 50px; 
+  margin: 50;
+
+}
+.river p {
+  color: #0A2F39;
+  font-size: .9em;
+  padding-bottom: 15px;
+  background-color: #AABD8C;
+  padding: 25px 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.river img {
+  float: left;
+  width:  250px;
+  height: 250px;
+  object-fit: cover;
+  
 }
