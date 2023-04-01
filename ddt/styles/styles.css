@@ -1,0 +1,127 @@
+div {
+  max-width: 1600px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+header {
+  font-family: 'IM Fell French Canon SC', 'Courier New', Courier, monospace;
+  background-color: #283618;
+  text-align: center;
+}
+#hero {
+  grid-column: 15px;
+  grid-row: 15px;
+}
+#hero-box {
+  align-content: left;
+  padding-left: 2em;
+}
+#hero-img { 
+  float: left;
+  justify-self: left;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: baseline;
+  text-align: center;
+  padding: 0;
+  margin-left: 150px;
+}
+nav a {
+  text-align: center;
+  color: #DDA15E;
+  text-decoration: none;
+  padding: 2em;
+  font-size: 50px;
+}
+nav a:hover{
+  background-color: #283618;
+  color: #BC6C25;
+  text-decoration: underline;
+}
+body {
+  background-color: #FEFAE0;
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #283618;
+  margin: 0;
+  padding: 0;
+}
+.msg {
+  margin: 100px;
+}
+h2 {
+  font-size: 100px;
+  text-align: center;
+}
+.pictures {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  padding: 2em;
+  margin: 2em;
+}
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  padding: 25px;
+  margin: 25px;
+}
+footer {
+  background-color: #283618;
+  color: #DDA15E;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  color: #DDA15E;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #BC6C25;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+div {
+  max-width: 1600px;
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#triangle {
+  width: 800px;
+  height: 1000px;
+}
+p {
+  text-align: center;
+}
+h3 {
+ color:#283618;
+ font-size: 2em;
+}
+ul {
+  width: 40%;      
+  background-color:#606C38;
+  border: 2px solid black;      
+  padding: 10px;      
+  word-wrap: break-word;      
+  font-size: 20px; 
+}
+ul li {
+  margin: 20px;
+  width: 50em;                   
+  padding: 5px;      
+  word-wrap: break-word;      
+  font-size: 25px;
+  color: #DDA15E;
+}

@@ -129,8 +129,8 @@ h4 {
 }
 .msg h2 {
   color: #F5F5F5;
-font-family: 'Rock Salt', 'Courier New', Courier, monospace;
-padding: 35px;
+  font-family: 'Rock Salt', 'Courier New', Courier, monospace;
+  padding: 35px;
 }
 .msg p {
   color: #F5F5F5;
